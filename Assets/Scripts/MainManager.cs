@@ -108,7 +108,7 @@ public class MainManager : MonoBehaviour
 
     public void UpdateHighScore()
     {
-        if (highname != null) {
+        if (highname != "") {
             HighScore.text = "HighScore: " + high_score + " by " + highname;
         }
         else
